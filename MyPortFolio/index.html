@@ -1,0 +1,105 @@
+<!-- portfolio.html -->
+<!DOCTYPE html>
+<html lang="en" class="jps">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PORTFOLIO </title>
+    <!-- <link rel="stylesheet" href="style.css">
+     -->
+     <link rel="stylesheet" href="style.css">
+</head>
+<body class="work">
+    <main class="rest">
+        <nav class="navbar">
+            <h1> Himanshu Narayan Portfolio</h1>
+            <div class="navigationmenu">
+                <a href="#aboutme"> About Me</a>
+                <a href="#skills">Skills </a>
+                <a href="#projects">Projects</a>
+                <a href="#contactform">Let's Connect!</a>
+            </div>
+        </nav>
+        <section class="herosection">
+            <img class=" profileimage" src="./assets/my.jpg" alt= Himanshu Narayan">
+            <div class="herosectiondetails">
+                <h1 Himanshu Narayan</h1>
+                <h3>Engineer Student[B.tech(CSE)]</h3>
+            </div>
+        </section>
+        <section class="aboutme" id="aboutme">
+            <h1>What I Do...</h1>
+            <p>Motivated third-year undergraduate student studying at Bhagwan Parshuram Institute of Technology, Delhi. Proficient in
+                web development, including HTML, CSS, and JavaScript, as well as Java programming. A dedicated learner with a passion
+                for continuous growth and excellence in all endeavors. Actively seeking opportunities in organizations that foster a culture of
+                freedom, initiative, and collaboration, where I can make meaningful contributions to the company's vision while advancing my
+                personal and professional development. Eager to leverage my skills and enthusiasm to play a significant role in the success
+                of the organization.
+            </p>
+        </section>
+        <section class="skillsandprojects">
+            <div class="skills" id="skills">
+                <h1 class="cardheading">Skills</h1>
+                <img src="./assets/css.svg" alt="css">
+                <img src="./assets/React.png" alt="React">
+                <img src="./assets/html.svg" alt="html">
+                <img src="./assets/java.svg" alt="java">
+                <img src="./assets/js.png" alt="js">
+                <img src="./assets/nodeJs.png" alt="js">
+            </div>
+            <div class="projects" id="projects">
+                <h1 class="cardheading">Projects</h1>
+                <div class="projectcontainer">
+                    <img src="./assets/html.svg" alt="project">
+                    <img src="./assets/css.svg" alt="project">
+                    <div class="projectdescription">
+                        <h4>Facebook Login Page</h4>
+                        <p>It's a clone login page of Facebook.Using Html and Css. </p>
+                        <h4>Real Estate Page</h4>
+                        <p>It's a website for Real Estate/property searching.Using Html and Css. </p>
+                    </div> 
+
+                </div>
+            </div>
+        </section>
+        <section class="contactform" id="contactform">
+            <h1>Let's Connect</h1>
+            <div class="formgroup">
+                <label for="name"> Enter Full Name</label><br/>
+                <input type="text" id="name" placeholder="Full Name" >
+            </div>
+            <div class="formgroup">
+                <label for="email"> Email</label><br/>
+                <input type="text" id="email" placeholder="Email" >
+            </div>
+            <div class="formgroup">
+                <label for="message"> Message</label><br/>
+                <textarea  placeholder="Send Some Message" name="w3review" id="message" cols="50" rows="4"></textarea>
+            </div>
+            <button class="submitButton" onclick={submit()}>Connect</button>
+        </section>
+        <footer class="contactform">
+            <section class="contacts">
+                <div class="contactMe">
+                    <h1>Contact Me</h1>
+                </div>
+                <div class="underline2"></div>
+                <div class="socials">
+                    <a href="https://github.com/himanshu-narayan"><img src="./assets/github.png" alt="" class="social-img" width="30px"></a>
+                    <a href="https://www.linkedin.com/in/himanshu-narayan-3a616322a/"><img src="./assets/linkedin.png" alt="" class="social-img" width="30px"></a>
+                    <img src="./assets/outlook.png" alt="" class="social-img" width="30px">
+                </div>
+            </section>
+        </footer>
+        <hr color="black">
+        
+        <address>
+            Written by <i Himanshu Narayan</i><br>
+            Visit us at:<br>
+            Box 564, New Delhi<br>
+            India
+        </address>
+    </main>
+</body>
+</html>
